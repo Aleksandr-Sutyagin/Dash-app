@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dash:
+    build: 
+      context: /Users/aleksandsutagin/Documents/dash-app
+    container_name: dash_dash
+    command: python app/app.py
+    volumes:
+      - /Users/aleksandsutagin/Documents/dash-app:/dash-app
+    ports:
+      - "80:80"
