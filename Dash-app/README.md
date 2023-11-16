@@ -8,3 +8,9 @@
 Для создания приложения используются модули Python, такие как pandas, plotly, dcc и другие.
 Стилизация приложения выполнена с помощью HTML, CSS, Dash Bootstrap.
 
+создаем образ приложения
+docker-compose build 
+
+запуск контейнера
+docker-compose up 
+
